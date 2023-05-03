@@ -72,7 +72,7 @@ function App() {
                 <a
                   id="tweet-quote"
                   className=" text-white  text-decoration-none"
-                  href={`https://www.twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${text} - ${author}`}
+                  href={`https://www.twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${text} - ${author}`} target={`_blank`}
                 >
                   <i className="fa-brands fa-twitter"></i>
                 </a>
@@ -80,7 +80,7 @@ function App() {
                 <button className="p rounded-2 ms-1 borders-none ">
                 <a
                   className=" text-white text-decoration-none"
-                  href={`https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=${author}&content=${text}&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button`}
+                  href={`https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=${author}&content=${text}&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button`} 
                 >
                   <i className="fa-brands fa-tumblr"></i>
                 </a>
