@@ -50,11 +50,11 @@ function App() {
             <div className="p-4">
               <div>
                 <p className="text-start">
-                  <i className="fa-solid fa-quote-left"></i>
+                  <i className="fa-solid fa-quote-left fa-2xl" ></i>
                    <span id="text" className="h2 ms-1 text-color">
                    
                   </span>
-                   <i className="fa-solid fa-quote-right"></i>
+                   
                 </p>
               </div>
               <div className="d-flex justify-content-end">
