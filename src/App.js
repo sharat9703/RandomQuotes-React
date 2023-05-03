@@ -65,7 +65,7 @@ function App() {
                   <i className="fa-brands fa-twitter"></i>
                 </a>
                 <a
-                  className="p rounded-2 text-white text-decoration-none"
+                  className="p rounded-2 text-white ms-1 text-decoration-none"
                   href={`https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes,freecodecamp&caption=${author}&content=${text}&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button`}
                 >
                   <i className="fa-brands fa-tumblr"></i>
