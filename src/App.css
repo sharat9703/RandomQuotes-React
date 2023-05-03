@@ -39,3 +39,6 @@ body,a,button,.btn{
 #new-quote{
     background-color: var(--mycolor);
 }
+.borders-none{
+    border: none;
+}
