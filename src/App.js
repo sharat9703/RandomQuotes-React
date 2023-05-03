@@ -59,8 +59,8 @@ function App() {
               <div className="social-media float-start ">
                 <a
                   id="tweet-quote"
-                  className="p rounded-2  text-white text-decoration-none"
-                  href={`twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${text} ${author}`}
+                  className="p rounded-2 me-1 text-white text-decoration-none"
+                  href={`https://www.twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=${text}${author}`}
                 >
                   <i className="fa-brands fa-twitter"></i>
                 </a>
