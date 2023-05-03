@@ -26,6 +26,7 @@ function App() {
   let handleClick=()=>{
           Window.location.reload();
   }
+  
   let text = quote.quote;
   let author = quote.author;
 
@@ -54,8 +55,8 @@ function App() {
                 </p>
               </div>
             </div>
-            <div className="mt-1 mb-3 buttons w-100 p-4 align-content-center">
-              <div className="social-media float-start d-block-sm">
+            <div className="mt-1 mb-3 buttons w-100 p-4 align-content-center d-block-sm">
+              <div className="social-media float-start ">
                 <a
                   id="tweet-quote"
                   className="p rounded-2  text-white text-decoration-none"
